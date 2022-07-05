@@ -1,13 +1,32 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 .front-image{
-   background-image: url(./images/donation1.jpg);
+   background-image: url(./images/donation5.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 500px;
+   height: 600px;
    background-position: center;
    color: white;
    text-align: center;
+}
+.lets-donate{
+    padding: 150px 300px;
+}
+h1{
+    font-size: 60px;
+}
+.link-button{
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.lets-donate a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
 }
