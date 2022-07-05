@@ -30,3 +30,31 @@ h1{
     display: inline-block;
     margin-top: 20px;
 }
+.donate-now{
+    text-align: center;
+    margin: 0 auto;
+}
+.tk{
+    width: 35px;
+    height: 30px;
+    margin: 40px;
+    display: inline-block;    
+}
+.two-hundred{
+ 
+   width: 80px;
+   height: 80px;
+   background-color: tomato;
+   display: inline-block;
+   margin: 30px 20 px;
+   padding-left: 8px;
+   color: pink;
+   font-weight:100 ;
+   
+}
+.amount{
+    margin:0 auto ;
+}
+.donate{
+    margin:0 auto;
+}
