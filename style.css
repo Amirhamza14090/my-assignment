@@ -38,7 +38,9 @@ h1{
     width: 35px;
     height: 30px;
     margin: 40px;
-    display: inline-block;    
+    display: inline-block;
+    position: relative;   
+    padding:40px 30px;
 }
 .two-hundred{
  
@@ -54,7 +56,14 @@ h1{
 }
 .amount{
     margin:0 auto ;
+    
 }
 .donate{
     margin:0 auto;
+}
+.other-amount{
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    text-align: center;
 }
