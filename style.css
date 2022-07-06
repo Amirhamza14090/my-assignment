@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
    background-image: url(./images/donation5.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 600px;
+   height: 700px;
    background-position: center;
    color: white;
    text-align: center;
@@ -34,36 +34,56 @@ h1{
     text-align: center;
     margin: 0 auto;
 }
+.amount{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
 .tk{
     width: 35px;
     height: 30px;
-    margin: 40px;
     display: inline-block;
-    position: relative;   
-    padding:40px 30px;
-}
-.two-hundred{
- 
-   width: 80px;
-   height: 80px;
-   background-color: tomato;
-   display: inline-block;
-   margin: 30px 20 px;
-   padding-left: 8px;
-   color: pink;
-   font-weight:100 ;
-   
-}
-.amount{
-    margin:0 auto ;
+    border-spacing: 10px;
+    
+    flex-direction: column;
+    border: 2px solid grey;
+    margin: 10px;
+    background-position: center;
     
 }
-.donate{
-    margin:0 auto;
-}
 .other-amount{
-    width: 4px;
-    height: 4px;
-    display: inline-block;
+    width:100%;
+    height: 400px;
+    background-position: center;
+
+}
+.donate-plan{
+    display: flex;
+    padding: 50px;
+    
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 320px;
+    border: 1px solid white;
+    margin: 50px;
+    align-items: center;
+    text-align: justify;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+.text{
     text-align: center;
+}
+#medicine-donate{
+    background-color:#F0F8FF ;
+}
+#blood-donate{
+    background-color: #FFB6C1;
 }
