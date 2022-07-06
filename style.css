@@ -62,6 +62,9 @@ h1{
     padding: 50px;
     
 }
+.money-send{
+    margin: 0 auto;
+}
 .column{
     display: flex;
     flex-direction: column;
@@ -86,4 +89,18 @@ h1{
 }
 #blood-donate{
     background-color: #FFB6C1;
+}
+.volunteer-page{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 100px;
+    margin: 0 auto;
+    
+}
+.volunteer-page img{
+    width: 80%;
+}    
+.flexible-area{
+    display: flex;
+    margin-bottom: 100px;
 }
