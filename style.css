@@ -103,4 +103,26 @@ h1{
 .flexible-area{
     display: flex;
     margin-bottom: 100px;
+    margin-top: 200px;
+}
+.subscribe-page{
+    text-align: center;
+}
+.email-button{
+   
+    background-color: blue;
+    width: 650px;
+    height: 150px;
+    margin: 0 auto;
+    
+
+    
+}
+.foter-area{
+    text-align: center;
+    background-color: black;
+    color: lightsalmon;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-variant-east-asian: jis90;
 }
