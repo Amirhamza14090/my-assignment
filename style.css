@@ -12,6 +12,7 @@ font-family: 'Roboto', sans-serif;
    background-position: center;
    color: white;
    text-align: center;
+   margin-bottom: 50px;
 }
 .lets-donate{
     padding: 150px 300px;
@@ -23,6 +24,15 @@ h1{
     background-color: tomato;
     padding: 10px 40px;
     border-radius: 5px;
+    text-align: center;
+}
+
+.all-donate{
+    background-color: tomato;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+
 }
 
 .lets-donate a{
@@ -61,11 +71,13 @@ h1{
 }
 .input-section input{
     padding: 10px;
-    width: 200px;
+    width: 400px;
     border: none;
     border-bottom: 1px solid gray;
     outline: none;
     margin: 20px;
+    text-align: center;
+    font-size: 18px;
 }
 .input-section a{
     text-decoration: none;
@@ -74,6 +86,7 @@ h1{
 .donate-plan{
     display: flex;
     padding: 50px;
+    
     
 }
 .money-send{
@@ -97,6 +110,7 @@ h1{
 }
 .text{
     text-align: center;
+    margin-top: 20px;
 }
 #medicine-donate{
     background-color:#F0F8FF ;
@@ -150,7 +164,7 @@ h1{
     color: lightsalmon;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-variant-east-asian: jis90;
+    font-style: italic;
 }
 #submit{
     border-radius: 0 5px 5px 0;
@@ -158,5 +172,5 @@ h1{
     background-color: tomato;
     padding: 10px 40px;
     color: white;
-    pad: -5px;
+    font-family: script;
 }
